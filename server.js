@@ -13,7 +13,7 @@ const port = process.env.PORT || 3000;
 //cors configuration
 
 const corsOption = {
-    origin: 'https://chimerical-squirrel-a7c533.netlify.app/login/', // Allow requests from your frontend
+    origin: 'https://chimerical-squirrel-a7c533.netlify.app/', // Allow requests from your frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow specific HTTP methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Allow specific headers
 };
